@@ -7,7 +7,28 @@
 </head>
 <body>
 <div class="container">
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="For example Vida">
+        </div>
+        <div class="mb-3">
+            <label for="last_name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="For example Shakeri">
+        </div>
+        <div class="mb-3">
+            <label for="code" class="form-label">National Code</label>
+            <input type="text" class="form-control" id="code" name="code" placeholder="For example 1236547891">
+        </div>
+        <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+    <img src="logo.png" class="img-thumbnail" />
     <form action="action.php" method="post" class="pt-5">
+
         <label for="num1" class="form-label">
             Number 1:
         </label>
