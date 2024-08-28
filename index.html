@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Test</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <form action="action.php" method="post" class="pt-5">
+        <label for="num1" class="form-label">
+            Number 1:
+        </label>
+        <input id="num1" class="form-control" name="num1" type="text">
+        <br />
+        <label for="num2" class="form-label">
+            Number 2:
+        </label>
+        <input id="num2" name="num2" type="text" class="form-control">
+        <br />
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+    </form>
+</div>
 
 </body>
 </html>
